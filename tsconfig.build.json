@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "es2020",
+    "outDir": "dist",
+    "rootDirs": ["src"]
+  },
+  "exclude": ["src/**/*.test.ts", "jest.config.ts"]
+}
