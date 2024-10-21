@@ -5,10 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "compile": "tsc",
     "start": "tsx ./src/server.ts",
     "dev": "tsx watch ./src/server.ts",
-    "build": "tsc -p tsconfig.build.json",
+    "build": "tsc",
     "testWithCoverage": "jest --coverage",
     "test": "jest"
   },

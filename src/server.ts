@@ -2,8 +2,8 @@ import cors from "cors";
 import express from "express";
 import { ApolloServer } from "@apollo/server";
 import { startStandaloneServer } from "@apollo/server/standalone";
-import { typeDefs } from "./graphql/schema";
-import { catResolver } from "./graphql/resolvers/catResolver";
+import { typeDefs } from "./graphql/schema.js";
+import { catResolver } from "./graphql/resolvers/catResolver.js";
 
 const app = express();
 
