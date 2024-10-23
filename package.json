@@ -7,9 +7,7 @@
   "scripts": {
     "start": "tsx ./src/server.ts",
     "dev": "tsx watch ./src/server.ts",
-    "build": "tsc",
-    "testWithCoverage": "jest --coverage",
-    "test": "jest"
+    "build": "tsc"
   },
   "author": "",
   "license": "ISC",
@@ -25,13 +23,10 @@
   "devDependencies": {
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.17",
-    "@types/jest": "^29.5.12",
     "@types/node": "^18.19.21",
     "@typescript-eslint/eslint-plugin": "^5.60.0",
     "@typescript-eslint/parser": "^5.60.0",
     "eslint": "^8.43.0",
-    "jest": "^29.7.0",
-    "ts-jest": "^29.1.2",
     "tsx": "^4.19.1",
     "typescript": "^5.0.4"
   }
